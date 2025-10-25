@@ -13,7 +13,7 @@ namespace Tyuiu.KosyakovDS.Sprint3.Task0.V26.Lib
             {
                 p *= (Math.Pow(2, k) / (k + 1)) * Math.Cos(1.8);
             }
-            return p;
+            return Math.Round(p, 3);
 
         }
     }
