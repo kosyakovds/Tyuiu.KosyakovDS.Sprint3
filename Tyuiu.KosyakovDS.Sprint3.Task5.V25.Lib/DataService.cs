@@ -6,7 +6,7 @@ namespace Tyuiu.KosyakovDS.Sprint3.Task5.V25.Lib
     {
         public double GetSumSumSeries(int x, int startValue1, int startValue2, int stopValue1, int stopValue2)
         {
-            double y = 1;
+            double y = 0;
 
             for (int i = startValue1; i <= stopValue1; i++)
             {
