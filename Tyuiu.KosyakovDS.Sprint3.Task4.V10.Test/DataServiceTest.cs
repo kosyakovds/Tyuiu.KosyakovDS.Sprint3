@@ -10,7 +10,7 @@ namespace Tyuiu.KosyakovDS.Sprint3.Task4.V10.Test
         {
             DataService ds = new DataService();
 
-            double wait = -0.117;
+            double wait = 0.014;
             double res = ds.Calculate(-5, 5);
 
             Assert.AreEqual(wait, res);

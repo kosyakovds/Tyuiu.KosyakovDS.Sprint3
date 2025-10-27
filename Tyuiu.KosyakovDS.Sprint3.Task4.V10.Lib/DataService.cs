@@ -12,7 +12,7 @@ namespace Tyuiu.KosyakovDS.Sprint3.Task4.V10.Lib
             {
                 if (i == 0)
                 {
-                    break;
+                    continue;
                 }
 
                 y *= (Math.Sin(i) - i) / i;
