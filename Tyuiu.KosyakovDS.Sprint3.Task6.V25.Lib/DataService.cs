@@ -10,14 +10,10 @@ namespace Tyuiu.KosyakovDS.Sprint3.Task6.V25.Lib
 
             for (int i = startValue; i <= stopValue; i++)
             {
-                for (int j = 1; j <= startValue; j++)
+                for (int j = 1; j < 10; j++)
                 {
                     if (i % j == 0)
                     {
-                        if (j > 10)
-                        {
-                            break;
-                        }
                         sum += j;
                     }
                 }

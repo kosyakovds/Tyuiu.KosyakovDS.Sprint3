@@ -10,7 +10,7 @@ namespace Tyuiu.KosyakovDS.Sprint3.Task6.V25.Test
         {
             DataService ds = new DataService();
 
-            int wait = 99;
+            int wait = 89;
             int res = ds.GetSumTheDivisors(16, 24);
 
             Assert.AreEqual(wait, res);
